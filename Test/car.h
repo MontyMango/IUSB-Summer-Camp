@@ -27,8 +27,7 @@
 // EXPERIMENTAL: Servo Pins & Variables
 Servo UCServo;  // Ultrasonic & Camera Servo
 #define SRVO 10
-int currentDegree 90
-
+int degree 90;
 
 
 /*define forward function*/
@@ -64,16 +63,16 @@ void moveRight(int speed)
   digitalWrite(LDC,HIGH);
 }
 
-class Servo	{
-public:
-	void servoInit(void);
-	void servoTest(void);
-}
-
 void stop()
 {
   analogWrite(RPC,0);
   analogWrite(LPC,0);	
+}
+
+class myServo	{
+public:
+	void servoInit(void);
+	void servoTest(void);
 }
 
 /*put your setup code here, to run once*/
