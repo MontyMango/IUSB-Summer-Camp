@@ -1,6 +1,7 @@
 // This code only work on BOLTs and later (Due to requiring the light sensor!)
 // Inspired by SolutionsincTV's code: https://www.youtube.com/watch?v=x24WSwoepxs
 // MontyMango - Changed animations, adjusted light sensitivity, and added a 2 minute timer for competitions.
+// Find block code here: https://edu.sphero.com/program/13110523
 
 var new_dis = 0;
 
